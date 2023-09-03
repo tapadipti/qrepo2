@@ -10,14 +10,14 @@ stages:
     params:
       params.yaml:
         train.conv_activation: relu
-        train.lr: 0.01
+        train.lr: 0.001
         train.num_epochs: 2
     outs:
     - path: dvclive/metrics.json
       hash: md5
-      md5: 839d1741bf9aa63bb1a45ff4c6fd3884
-      size: 136
+      md5: ca8dbad7e2848e256fe14c313b5c6600
+      size: 138
     - path: output/metrics.json
       hash: md5
-      md5: ea876851bbed937f74d53086f8914c19
-      size: 61
+      md5: 74ac5a7ed90182f4aa617b946ce3f8a3
+      size: 63
