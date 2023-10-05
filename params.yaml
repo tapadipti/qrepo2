@@ -1,4 +1,4 @@
 train:
   num_epochs: 2
-  lr: 0.00010
+  lr: 0.00011
   conv_activation: relu
